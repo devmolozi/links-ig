@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-weight: 200;
@@ -10,7 +10,9 @@
     src: url('/fonts/cormorant.ttf');
 
 }
-html, body {
+
+html,
+body {
     letter-spacing: 0.5px;
     height: 100%;
     display: flex;
@@ -24,60 +26,60 @@ html, body {
 
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-h1{
+h1 {
     font-size: 25px;
 }
 
-.arroba{
+.arroba {
     color: #7A7A7A;
     font-size: 14px;
     margin: 8px 0;
 }
 
 
-a{
+a {
     white-space: 10;
-    padding: 10px;
+    padding: 10px 0;
     color: #B8B8B8;
     text-decoration: none;
     border-radius: 6px;
 }
 
-a:hover{
+a:hover {
     color: #fff;
     transition: 0.4s;
 }
 
 
-.info-conta p{
-    
+.info-conta p {
+
     white-space: 10;
     margin: 8px 0;
     font-size: 20px;
 }
 
 
-header nav{
+header nav {
     margin-top: 10%;
     align-items: center;
     text-align: left;
     justify-content: center;
-    display: flex;  
+    display: flex;
     align-items: center;
 }
 
-header img{
+header img {
     width: 85px;
 }
 
-.logo{
+.logo {
     align-items: center;
     justify-content: center;
-    display: flex;    
+    display: flex;
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -86,67 +88,57 @@ header img{
     border-right: 2px solid #7A7A7A;
 }
 
-main{
+main {
     margin: auto;
-    padding:100px 0;
-    width: 300px;
+    padding: 100px 0;
 }
 
-footer{
+footer {
     position: relative;
     bottom: 0;
     padding: 20px 0;
     margin-top: auto;
 }
 
-footer p{
+footer p {
     color: #7A7A7A;
     font-size: 17px;
 }
 
 
-.link{
+.link {
     margin: 40px 0;
 }
 
-.link2{ 
+.link2 {
     border-radius: 10px;
-    padding: 10px;
+    cursor: pointer;
+    padding: 10px 0px;
     background-color: #ddd;
 }
-.link2:hover{
+
+.link2:hover {
     transition: 0.3s;
     background-color: #b5b5b5;
 }
 
-.link2 a{
+.link2 a {
+    padding: 10px 50px;
     font-weight: 400;
     color: black;
+
 }
 
-.link a{
+a {
     font-size: 20px;
 }
 
-
-
-.line-link{
+.line-link {
     height: 0.5px;
-    width:100px;
+    width: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
     margin: 0 auto;
     margin-top: 2px;
     background-color: #2c2c2c;
-}
-
-.line-link2{
-    height: 0.5px;
-    width:100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    margin: 0 auto;
-    margin-top: 2px;
-    background-color: #2c2c2c;
-    border: none;
 }
